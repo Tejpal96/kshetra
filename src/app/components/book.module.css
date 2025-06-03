@@ -1,0 +1,53 @@
+.book {
+  position: relative;
+  background: rgb(195, 219, 221);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bookContent {
+  background: url('/images/book_cover.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  border: 2px solid rgb(150, 236, 232);
+  margin: 40px;
+  margin-top: 20px;
+  color: #fff;
+  padding: 30px 20px;
+  display: flex;
+  gap: 10%;
+}
+
+.book_b1{
+    width: 40vw;
+}
+
+.bookTitle {
+  font-size: 3vw;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: left;
+  margin-bottom:16px;
+}
+
+.bookSubtitle {
+  font-size: 1.5vw;
+  text-align: left;
+  margin-bottom: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.bookbtn{
+    width: 30vw;
+    padding: 5%;
+    align-content: center;
+}
+.bookbtn>p{
+    color: #ff2;
+    font-size: 4vw;
+    text-align: center;
+    border: 2px solid #ff2;
+}

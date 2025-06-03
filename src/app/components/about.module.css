@@ -1,0 +1,48 @@
+.about {
+  position: relative;
+  background: rgba(0, 0, 0, 0.6);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutContent {
+  margin-top: 30px;
+  text-align: center;
+  color: #fff;
+  padding: 0 20px;
+}
+
+.aboutTitle {
+  font-size: 8vw;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom:16px;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: #00b894;
+  text-underline-offset: 4px;
+}
+
+.aboutwrapper{
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 10%;
+  display: flex;
+  overflow: hidden;
+  gap: 10vw;
+  align-content: space-evenly;
+}
+
+.aboutimage{
+  width: 40rem;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.aboutSubtitle {
+  font-size: 1.2em;
+  margin-bottom: 32px;
+  color: rgb(181, 255, 255);
+}
