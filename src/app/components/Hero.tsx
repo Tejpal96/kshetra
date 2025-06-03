@@ -8,9 +8,9 @@ export default function Hero() {
         <div className={styles.content}>
           <h1 className={styles.title}>Experience the Peace</h1>
           <p className={styles.subtitle}>Explore top destinations and Experience the Spiritual Peace of Uttarakhand.</p>
-          <a href="#desti" className={styles.cta}>
+          <Link href="#desti" className={styles.cta}>
             Explore Destinations
-          </a>
+          </Link>
         </div>
       </div>
     </section>

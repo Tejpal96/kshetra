@@ -27,7 +27,7 @@ export default function PopularDestinations() {
     <section id = 'desti' className={styles.gallery}>
       <h2 className={styles.heading}>Popular Destinations</h2>
       <div className={styles.grid}>
-        {destinations.map((dest, idx, pkgs) => (
+        {destinations.map((dest, idx) => (
           <div key={idx} className={styles.card} onClick={handleClick}>
             <img src={dest.image} alt={dest.name} />
             <span>{dest.name} {dest.pkgs}</span>

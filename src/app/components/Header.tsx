@@ -6,11 +6,11 @@ export default function Header() {
     <header className={styles.header}>
         <div className={styles.logo}>Kshetra</div>
         <nav className={styles.nav}>
-          <a href="/#hero_home">Home</a>
-          <a href="/#desti">Destinations</a>
-          <a href="/#packages">Packages</a>
-          <a href="/#about">About</a>
-          <a href="/#contact">Contact</a>
+          <Link href="/#hero_home">Home</Link>
+          <Link href="/#desti">Destinations</Link>
+          <Link href="/#packages">Packages</Link>
+          <Link href="/#about">About</Link>
+          <Link href="/#contact">Contact</Link>
         </nav>
     </header>
   );
