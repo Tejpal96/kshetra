@@ -29,20 +29,21 @@
   padding-left: 10%;
   padding-right: 10%;
   padding-bottom: 10%;
-  display: flex;
+  display: grid;
   overflow: hidden;
   gap: 10vw;
   align-content: space-evenly;
+  grid-template-columns:repeat(auto-fit, minmax(200px, 2fr));
 }
 
 .aboutimage{
-  width: 40rem;
+  width: 20rem;
   height: 100%;
   border-radius: 20px;
 }
 
 .aboutSubtitle {
   font-size: 1.2em;
-  margin-bottom: 32px;
+  margin-bottom: 20px;
   color: rgb(181, 255, 255);
 }

@@ -1,7 +1,7 @@
 .section {
   padding: 40px 20px;
   margin: 0 auto;
-  background: rgb(195, 219, 221);
+  background: linear-gradient(rgb(221, 216, 195),rgb(195, 219, 221));
 }
 
 .heading {

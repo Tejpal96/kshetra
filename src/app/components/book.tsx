@@ -1,4 +1,5 @@
 import styles from './book.module.css';
+import Link from 'next/link';
 
 export default function Book() {
   return (
@@ -10,7 +11,7 @@ export default function Book() {
             <p className={styles.bookSubtitle}>30% deposit of the tour package cost is required at the time of Booking.</p>
         </div>
         <div className={styles.bookbtn}>
-            <p>Book Now</p>
+            <p><Link href='https://forms.gle/eqaiGajCxV3QNZLy5' target="_blank" rel="noopener noreferrer">Book Now</Link></p>
         </div>
       </div>
     </section>

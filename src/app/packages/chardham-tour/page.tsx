@@ -16,7 +16,7 @@ export default function Hero() {
     </div>
     <div className={styles.r_t_plan}>
       <h1 className={styles.planTitle}>Package Plan</h1>
-      <img className={styles.img} src="/images/rishikesh_plan.png" alt="Plan" />
+      <img className={styles.img} src="/images/chardham_plan2.png" alt="Plan" />
     </div>
     <Book/>
     </main>

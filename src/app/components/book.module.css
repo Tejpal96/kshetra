@@ -1,8 +1,7 @@
 .book {
   position: relative;
-  background: rgb(195, 219, 221);
+  background: linear-gradient(rgba(195, 219, 221,1),rgba(0, 0, 0,0.6));
   background-size: cover;
-  background-position: center;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -31,13 +30,16 @@
   font-family: 'Times New Roman', Times, serif;
   text-align: left;
   margin-bottom:16px;
+  color: rgb(250, 186, 12);
+  text-shadow: 1px 1px 2px rgb(0, 99, 94);
 }
 
 .bookSubtitle {
   font-size: 1.5vw;
   text-align: left;
   margin-bottom: 10px;
-  color: rgb(255, 255, 255);
+  color: rgb(234, 250, 12);
+  text-shadow: 1px 1px 2px rgb(0, 90, 86);
 }
 
 .bookbtn{
@@ -50,4 +52,10 @@
     font-size: 4vw;
     text-align: center;
     border: 2px solid #ff2;
+    transition: transform 0.1s ease;
+}
+
+.bookbtn>p:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
 }

@@ -7,7 +7,7 @@ export default function Hero() {
       <div className={styles.overlay}>
         <div className={styles.content}>
           <h1 className={styles.title}>Experience the Peace</h1>
-          <p className={styles.subtitle}>Explore top destinations and Experience the Spiritual Peace of Uttarakhand.</p>
+          <p className={styles.subtitle}>The Goal is to die with memories not Dreams</p>
           <Link href="#desti" className={styles.cta}>
             Explore Destinations
           </Link>

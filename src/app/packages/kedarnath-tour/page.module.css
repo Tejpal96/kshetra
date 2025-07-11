@@ -31,7 +31,7 @@
   background-size: cover;
   background-position: center;
   display: flex;
-  background-color: #d6eb2d;
+  background: linear-gradient(#d6eb2d,rgb(195, 219, 221));
   padding: 5%;
   overflow: hidden;
   align-items: center;

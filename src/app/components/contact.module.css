@@ -3,12 +3,15 @@
   background: rgb(14, 13, 13);
   background-size: cover;
   background-position: center;
-  display: flex;
+  display: grid;
   justify-content: center;
   padding: 5%;
+  align-items: center;
+  grid-template-columns:repeat(auto-fit, minmax(300px, 2fr));
 }
 
 .compony{
+    overflow: hidden;
     position: top;
     width: 15vw;
     text-align: left;
@@ -21,32 +24,74 @@
     font-size: 1.2rem;
     font-weight: bold;
     margin-bottom: 5px;
+    margin-top: 10px;
 }
 
 .contact{
+  overflow: hidden;
   position: top;
   width: 30vw;
   text-align: left;
   padding: 0 20px;
   display: flex;
   flex-direction: column;
-  
 }
 
 .contact>h1{
     font-size: 1.2rem;
     font-weight: bold;
     margin-bottom: 5px;
+    margin-top: 10px;
 }
 
 .social{
     margin-top: 10px;
-    width: 10%;
+    width: 3vw;
 }
 .whatsapp{
+    overflow: hidden;
     width: 30vw;
     text-align: center;
-    padding: 0 20px;
+    padding: 5% 20px;
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
+    border-radius: 10px;
+    border: 2px solid rgb(205, 250, 7);
+    background-color: rgb(44, 179, 44);
+    text-align: left;
+    margin-top: 5%;
+}
+
+.whatsapp>h1{
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.whatsapp>h2{
+    margin-top: 5%;
+    text-align: center;
+    background-color: rgb(0, 83, 4);
+    border-radius: 10px;
+    font-size: 150%;
+    font-weight: bold;
+    transition: transform 0.1s ease;
+}
+
+.whatsapp>h2:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 650px) {
+.compony{
+    width: 80vw;
+}
+
+.contact{
+    width: 80vw;
+}
+
+.whatsapp{
+    width: 80vw;
+}
 }

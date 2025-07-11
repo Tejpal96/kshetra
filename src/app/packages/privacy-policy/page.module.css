@@ -22,37 +22,38 @@
 }
 
 .title {
-  font-size: 70px;
+  font-size: 8vw;
   font-weight: bold;
   margin-bottom: 0px;
-}
-
-.subtitle{
-  font-size: 20px;
 }
 
 .r_t_plan{
   position: relative;
   background-size: cover;
   background-position: center;
-  display: flex;
+  display: grid;
   background: linear-gradient(#d6eb2d,rgb(195, 219, 221));
   padding: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
   overflow: hidden;
   align-items: center;
-  justify-content: center;
-  gap: 10%;
 }
 
 .planTitle{
   font-size: 4vw;
   font-weight: bold;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: left;
+  color: blue;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
 }
 
-.img{
-  position: relative;
-  height: 100%;
-  width: 50vw;
-  border: 2px solid red;
+.subtitle{
+  font-size: 1.5vw;
+  color: black;
+  margin-bottom: 10px;
 }

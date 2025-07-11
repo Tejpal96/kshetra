@@ -24,3 +24,43 @@
 .nav a:hover {
   color: #0070f3;
 }
+
+.burger {
+  display: none;
+  flex-direction: column;
+  gap: 4px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.bar {
+  width: 24px;
+  height: 3px;
+  background-color: #333;
+  border-radius: 2px;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .nav {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: rgba(0,0,0,0.7);;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    display: none;
+    width: 100%;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  }
+
+  .open {
+    display: flex;
+  }
+
+  .burger {
+    display: flex;
+  }
+}

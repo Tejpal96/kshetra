@@ -21,7 +21,7 @@ export default function PackagesCard({ image, title, days, rate, description,slu
         <p className={styles.description}>{description}</p>
         <div className={styles.buttonContainer}>
           <Link href={`/packages/${slug}`}><button className={styles.button}>Know More</button></Link>
-          <button className={styles.buttonSecondary}>Book Now</button>
+          <button className={styles.buttonSecondary}><Link href= 'https://forms.gle/eqaiGajCxV3QNZLy5' target="_blank" rel="noopener noreferrer">Book Now</Link></button>
         </div>
       </div>
     </div>

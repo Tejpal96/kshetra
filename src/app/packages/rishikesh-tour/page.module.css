@@ -13,7 +13,6 @@
   align-items: center;
   justify-content: center;
   background-color: rgba(0,0,0,0.2);
-  
 }
 
 .rishikeshcontent {
@@ -23,21 +22,21 @@
 }
 
 .rishikeshtitle {
-  font-size: 70px;
+  font-size: 8vw;
   font-weight: bold;
   margin-bottom: 0px;
 }
 
 .subtitle{
-  font-size: 20px;
+  font-size: 2.5vw;
 }
 
 .r_t_plan{
   position: relative;
   background-size: cover;
   background-position: center;
-  display: flex;
-  background-color: #d6eb2d;
+  display: grid;
+  background: linear-gradient(#d6eb2d,rgb(195, 219, 221));
   padding: 5%;
   overflow: hidden;
   align-items: center;
@@ -48,12 +47,16 @@
 .planTitle{
   font-size: 4vw;
   font-weight: bold;
-  margin-bottom: 0px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #402deb;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
 }
 
 .img{
   position: relative;
   height: 100%;
-  width: 50vw;
-  border: 2px solid red;
+  width: 60vw;
 }

@@ -50,6 +50,7 @@
   border-radius: 8px;
   cursor: pointer;
   font-weight: bold;
+  transition: transform 0.1s ease;
 }
 
 .button {
@@ -60,4 +61,14 @@
 .buttonSecondary {
   background-color: #18557e;
   color: white;
+}
+
+.buttonSecondary:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
+}
+
+.button:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
 }
