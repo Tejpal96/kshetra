@@ -18,7 +18,7 @@ export default function Hero() {
       <p className={styles.subtitle}>✏Sightseeing of scheduled locations as per the itinerary, tailored to your preferences for comfort.</p>
       <p className={styles.subtitle}>✏All meals, including breakfast, lunch, and dinner as specified in the holiday package details varies based on the chosen package.</p>
       <p className={styles.subtitle}>✏ Accommodation options for single, double, or triple occupancy, depending on your preference.</p>
-      <p className={styles.subtitle}>✏Children under 5 years can share their parent's bed at no additional cost.</p>
+      <p className={styles.subtitle}>✏Children under 5 years can share their parent bed at no additional cost.</p>
       <p className={styles.subtitle}>✏All sightseeing, excursions, and transfers as per the agreed itinerary, using a dedicated private vehicle. Coverage of all transport, parking, and driver-related expenses.</p>
       <p className={styles.subtitle}>✏Inclusion of fuel costs, driver allowances, toll taxes, and similar expenses. All hotel charges and taxes covered.</p>
       <p className={styles.subtitle}>✏Inclusive of GST, IGST, SGST, and other government taxes.</p>
